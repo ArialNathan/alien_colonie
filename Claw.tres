@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="WaponData" format=3 uid="uid://dtonnpdbt4j73"]
+
+[ext_resource type="Script" uid="uid://d0yo60jx702x1" path="res://Data/WaponData.gd" id="1_awb3v"]
+
+[sub_resource type="Curve" id="Curve_awb3v"]
+_data = [Vector2(0, 1), 0.0, -0.8302778, 0, 0, Vector2(0.24679488, 0), -14.022462, 0.0, 0, 0]
+point_count = 2
+
+[resource]
+script = ExtResource("1_awb3v")
+wapon_name = "Claw"
+wapon_description = "Sa coupe et ça fait mal"
+wapon_damage = SubResource("Curve_awb3v")
+metadata/_custom_type_script = "uid://d0yo60jx702x1"
